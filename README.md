@@ -32,7 +32,14 @@ Sólo hemos de fijarnos en el fichero _main_activity.xml_:
 
 </FrameLayout>
 ```
-Notad como los textos del _TextView_ y del _Button_ se han insertado en el fichero _strings.xml_ y accedemos a él usando el símbolo @.
+Los textos del _TextView_ y del _Button_ se han insertado en el fichero _values/strings.xml_ y accedemos a él usando el símbolo @:
+```
+<resources>
+    <string name="app_name">Ud2_Ejemplo4</string>
+    <string name="uno">Uno</string>
+    <string name="boton">Botón</string>
+</resources>
+```
 
 _Imagen de material.io/tools/icons (Licencia Apache 2.0)_
 
