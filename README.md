@@ -4,7 +4,7 @@ _Ejemplo 4 de la Unidad 2._
 Vemos un ejemplo del ViewGroup _FrameLayout_ al que le añadimos texto, una imagen y un botón.
 Modificando el valor del atributo _visibility_ (_visible_, _invisible_ o _gone_) podemos ver cómo los elementos se muestran u ocultan dejando su espacio libre o no.
 
-Sólo hemos de fijarnos en el fichero _main_activity.xml_:
+Sólo hemos de fijarnos en el fichero _activity_main.xml_:
 
 ```
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
